@@ -10,6 +10,7 @@ div.circle {
   from {
     width:  0%;
     height: 0%;
+    box-shadow: 0 0 100px inset #3f3f3f;
   }
   to {
     width:  100%;
