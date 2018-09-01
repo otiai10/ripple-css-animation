@@ -1,5 +1,6 @@
 div.circle {
   width:  80%;
   height: 80%;
-  background-color: red;
+  border: solid thin #303030;
+  border-radius: 50%;
 }
