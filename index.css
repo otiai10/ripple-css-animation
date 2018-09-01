@@ -4,6 +4,20 @@ div.circle {
   border: solid thin #303030;
   border-radius: 50%;
   animation: wave 2s infinite;
+  position: absolute;
+}
+
+div.circle.layer-0 {
+  animation-delay: 0s;
+}
+div.circle.layer-1 {
+  animation-delay: 0.2s;
+}
+div.circle.layer-2 {
+  animation-delay: 0.4s;
+}
+div.circle.layer-3 {
+  animation-delay: 0.6s;
 }
 
 @keyframes wave {
