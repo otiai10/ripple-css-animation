@@ -3,4 +3,16 @@ div.circle {
   height: 80%;
   border: solid thin #303030;
   border-radius: 50%;
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  from {
+    width:  0%;
+    height: 0%;
+  }
+  to {
+    width:  100%;
+    height: 100%;
+  }
 }
